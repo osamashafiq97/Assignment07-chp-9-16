@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let colorName =["red","blue","Green"] 
+    let colorAdd = prompt("what color u want to add in the begining :")
+  
+    document.write( colorAdd.unshift());
+    document.write(colorName)
+    
+    
+    
+    var color=["red","blue","green"];
+    document.write(color+"<br>")
+    color.unshift(prompt("enter color name add starting :"));
+    document.write(color +"<br>")
+    
+    
+    var color=["red","blue","green"];
+    document.write(color+"<br>")
+    color.push(prompt("enter color name add end :"));
+    document.write(color+"<br>")
+
+
+    var color=["red","blue","green"];
+    document.write(color+"<br>")
+    color.unshift(prompt("enter color name add start 1 :"));
+    color.unshift(prompt("enter color name add start2 :"));
+
+
+
+    document.write(color+"<br>")
+
+
+       var color=["red","blue","green"];
+    document.write(color+"<br>")
+   b= color.shift();
+    document.write(b +"<br>")
+
+
+var color=["red","blue","green"];
+    document.write(color+"<br>")
+   b= color.pop();
+    document.write(b +"<br>")
+    
+
+
+
+var color=["red","blue","green"];
+    document.write(color+"<br>")
+var  c = prompt("index no")
+var  d = prompt("color name")
+   
+color.splice(c,0,d)
+document.write(color)
+
+var color=["red","blue","green"];
+    document.write(color+"<br>")
+var  c = prompt("starting point")
+var  d = prompt("ending point")
+   
+
+document.write(color.slice(c,d))
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+    //Declare an empty array using JS literal notation to store  student names in future.
+        
+      let array=["","",""];
+
+    //  2. Declare an empty array using JS object notation to store student names in future.  
+
+        let Array = [{},{},{}];
+
+       // Declare and initialize a strings array.
+        let a  = ["azan","junaid","osama"];
+        
+      //Declare and initialize a numbers array.  
+        
+        let b = [1,2,3,4,5]
+        
+     //Declare and initialize a boolean array.   
+        let c = [true,false,true,false];
+
+        //Declare and initialize a mixed array.
+        let mixed = ["azan",23,true,"osama"]
+
+//     Declare and Initialize an array and store available
+// education qualifications in Pakistan (e.g. SSC, HSC, BCS,
+// BS, BCOM, MS, M. Phil., PhD). Show the listed
+// qualifications in your browser like:
+
+ let education = ["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil", "PhD"]
+document.write("Qualifications <br>",education);
+
+// Write a program to create a single string from the
+// below mentioned array:
+
+// var arr = [This , “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)(done)
+
+let names = ["This","is","my","cat"]
+let text = names.join("  ");
+document.write(text);
+
+
+
+
+// Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)(done)
+
+let computers = ["keyboard","mouse","printer","monitor"];
+document.write(computers);
+
+// 14. Create a new array. Store values one by one in such a way
+
+// that you can access the values in reverse order. (Last In-
+// First Out)(done)
+
+let computer = ["keyboard","mouse","printer","monitor"];
+document.write(" <br>  ",computers.reverse());
+ 
+// Write a program to store student scores in an array &
+// sort the array in ascending order using Array’s sort
+// method.(done)
+
+let scores= [320,230,480,120]
+document.write("scores of students   ",scores)
+document.write("<br>In ascending order  ",scores.sort());
+
+// Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities
+// array.
+  
+let cities =["karachi","lahore","islamabad","quetta","peshawer"];
+document.write(cities.slice(2,4));
+
+
+        </script>
+</body>
+</html>
